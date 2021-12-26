@@ -2,6 +2,7 @@ from config import driver
 from selenium.webdriver.common.by import By
 
 driver.get('https://rahulshettyacademy.com/angularpractice/')
+
 driver.find_element(By.NAME, 'name').send_keys('Campbell')
 print(driver.find_element(By.NAME, 'name').get_attribute('value'))
 

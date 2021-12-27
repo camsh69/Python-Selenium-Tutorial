@@ -13,7 +13,7 @@ import pytest
 # run test but do not mark pass or fail with @pytest.mark.xfail
 
 
-@pytest.mark.smoke
+# @pytest.mark.smoke
 def test_firstProgram():
     print("hello")
 

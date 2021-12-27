@@ -1,0 +1,20 @@
+2021-12-27 15:21:16,963 :INFO :test_logging :Information statement
+2021-12-27 15:21:16,964 :WARNING :test_logging :Something is in warning mode
+2021-12-27 15:21:16,964 :ERROR :test_logging :A major error has occurred
+2021-12-27 15:21:16,964 :CRITICAL :test_logging :Critical issue
+2021-12-27 15:37:00,358 :INFO :BaseClass :Campbell
+2021-12-27 15:37:00,358 :INFO :BaseClass :campbellforsyth.com
+2021-12-27 15:39:33,396 :INFO :test_editProfile :Campbell
+2021-12-27 15:39:33,396 :INFO :test_editProfile :campbellforsyth.com
+2021-12-27 15:43:11,910 :INFO :test_editProfile :Campbell
+2021-12-27 15:43:11,911 :INFO :test_editProfile :campbellforsyth.com
+2021-12-27 15:43:11,933 :INFO :test_logging :Information statement
+2021-12-27 15:43:11,933 :WARNING :test_logging :Something is in warning mode
+2021-12-27 15:43:11,933 :ERROR :test_logging :A major error has occurred
+2021-12-27 15:43:11,933 :CRITICAL :test_logging :Critical issue
+2021-12-27 15:44:05,794 :INFO :test_editProfile :Campbell
+2021-12-27 15:44:05,794 :INFO :test_editProfile :campbellforsyth.com
+2021-12-27 15:44:05,818 :INFO :test_logging :Information statement
+2021-12-27 15:44:05,818 :WARNING :test_logging :Something is in warning mode
+2021-12-27 15:44:05,818 :ERROR :test_logging :A major error has occurred
+2021-12-27 15:44:05,818 :CRITICAL :test_logging :Critical issue

@@ -11,4 +11,9 @@ def setup():
 @pytest.fixture()
 def dataLoad():
     print("user profile is being created")
-    return ('Campbell', 'Forsyth', 'campbellforsyth.com')
+    return ['Campbell', 'Forsyth', 'campbellforsyth.com']
+
+
+@pytest.fixture(params=[("chrome", "Campbell"), "Firefox", "Edge"])
+def crossBrowser(request):
+    return request.param

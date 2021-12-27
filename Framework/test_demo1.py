@@ -11,6 +11,7 @@ import pytest
 # -m followed by (tag) mark (e.g. pytest -m smoke -v -s)
 # skip test with @pytest.mark.skip
 # run test but do not mark pass or fail with @pytest.mark.xfail
+# datadriven and parameterization can be done with return statements in tuple format
 
 
 # @pytest.mark.smoke
@@ -33,3 +34,9 @@ def test_thirdGreeting():
 def test_fourthGreeting():
     msg = 'Hello'
     assert msg == 'Hello', 'Test failed because strings do not match'
+
+# see coftest.py
+
+
+def test_crossBrowser(crossBrowser):
+    print(crossBrowser)
